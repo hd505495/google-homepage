@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Hawk's google homepage replica</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous" >
+    <meta name="description" content="google-replica">
+    <meta name="author" content="Hawk Dykes">
+</head>
+<body>
+
+    <nav id="navbar">
+        <ul class="navbar-list navbar-left">
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <ul class="navbar-list navbar-right">
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li>
+                <a href="" id="apps-icon">
+                    <i class="fas fa-th"></i>
+                </a>
+            </li>
+            </li><a href="" id="sign-in">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <section id="main">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <form action="javascript:void(0);">
+            <input type="text" size="55" id="searchbar" name="searchbar">
+            <div class="buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </section>
+
+    
+    <footer>
+        <ul class="footer-list footer-left">
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search Works</a></li>
+        </ul>
+        <ul class="footer-list footer-right">
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>  
+    </footer>
+</body>
+</html>
