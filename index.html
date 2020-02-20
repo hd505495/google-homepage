@@ -5,6 +5,11 @@
 
     <title>Hawk's google homepage replica</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous" >
     <meta name="description" content="google-replica">
     <meta name="author" content="Hawk Dykes">
 </head>
@@ -20,7 +25,7 @@
             <li><a href="">Images</a></li>
             <li>
                 <a href="" id="apps-icon">
-                    <img src="">
+                    <i class="fas fa-th"></i>
                 </a>
             </li>
             </li><a href="" id="sign-in">Sign In</a></li>
@@ -30,9 +35,11 @@
     <section id="main">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form action="javascript:void(0);">
-            <input type="text" id="searchbar" name="searchbar">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <input type="text" size="40" id="searchbar" name="searchbar">
+            <div class="buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
         </form>
     </section>
 
