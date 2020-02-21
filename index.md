@@ -35,7 +35,11 @@
     <section id="main">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form action="javascript:void(0);">
-            <input type="text" size="55" id="searchbar" name="searchbar">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" size="55" id="searchbar" name="searchbar">
+                <i class="fas fa-microphone"></i>
+            </div>
             <div class="buttons">
                 <input type="submit" value="Google Search">
                 <input type="submit" value="I'm Feeling Lucky">
